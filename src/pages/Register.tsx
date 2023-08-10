@@ -9,9 +9,9 @@ const Register = () => {
         <input required type="text" name="" id="" placeholder='username'/>
         <input required type="email" name="" id="" placeholder='email'/>
         <input required type="password" name="" id="" placeholder='password'/>
-        <button>Login</button>
+        <button>Register</button>
         <p>This is an error.</p>
-        <span>Do you have an account? <Link to='/login'>Register</Link></span>
+        <span>Do you have an account? <Link to='/login'>Login</Link></span>
       </form>
     </div>
   )
