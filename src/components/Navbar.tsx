@@ -16,7 +16,9 @@ const Navbar = () => {
             <Link className='link' to='/?cat=cinema'><h6>CINEMA</h6></Link>
             <Link className='link' to='/?cat=design'><h6>DESIGN</h6></Link>
             <Link className='link' to='/?cat=food'><h6>FOOD</h6></Link>
-            <span>Join</span>
+            <Link className='link' to='/register'>
+              <span>Join</span>
+            </Link>
             <span>Logout</span>
             <span className='write'>
               <Link className='link' to='/write'>Write</Link>
